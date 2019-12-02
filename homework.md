@@ -209,7 +209,7 @@ Steve Vance
 ``INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '00:00');
 SELECT title FROM movies;``
 
-``title                
+```title                
 -------------------------------------
 Iron Man
 The Incredible Hulk
@@ -232,7 +232,7 @@ Thor: Ragnarok
 Black Panther
 Avengers: Infinity War
 (20 rows)
-``
+```
 9.  The cinema would like to make the Iron Man movies a triple billing. Find out the show time of "Iron Man 2" and set the show time of "Iron Man 3" to start two hours later.
 
 SELECT title, show_time FROM movies WHERE title = 'Iron Man 2';
